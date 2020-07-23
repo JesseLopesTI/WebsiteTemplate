@@ -1,0 +1,72 @@
+/* Reser */
+
+body,
+ul,
+li,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+/* General Settings */
+
+body {
+  background: #000000;
+  font-family: 'Oswald', sans-serif;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #9c9c9c;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+/* Header */
+
+#header-container {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+li a:hover {
+  color: #ffffff;
+  transition: .5s;
+}
+
+.active-option {
+  color: #ffffff;
+}
+
+.main-title {
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.fab {
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.fab:hover {
+  color: #ffffff;
+  transition: .5s;
+}
