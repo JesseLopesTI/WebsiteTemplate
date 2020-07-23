@@ -32,7 +32,7 @@ h1 {
 
 /* Header */
 
-#header-container {
+header {
   width: 95%;
   margin: 0 auto;
   display: flex;
