@@ -1,0 +1,77 @@
+/* Reset */
+
+body,
+ul,
+li,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+/* General Settings */
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #242424;
+  text-transform: uppercase;
+}
+
+/* Header */
+
+header {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+ul li {
+  display: inline;
+}
+
+li a {
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+.active-option {
+  font-weight: 600;
+}
+
+.with-hover:hover {
+  color: #767676;
+  transition: .5s;
+}
+
+.main-title {
+  font-size: 23px;
+}
+
+.main-title:hover {
+  color: #767676;
+  transition: .5s;
+}
+
+.fab {
+  margin-left: 20px;
+}
+
+.fab:hover {
+  color: #767676;
+  transition: .5s;
+}
+
+.fa-behance, .fa-linkedin-in, .fa-instagram {
+  font-size: 18px;
+}
