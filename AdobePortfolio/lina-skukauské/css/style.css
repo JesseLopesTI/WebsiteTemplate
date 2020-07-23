@@ -1,0 +1,58 @@
+/* Reset */
+
+body,
+h1,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* General Settings */
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #cbcbcb;
+}
+
+/* Header */
+
+header {
+  padding: 70px 0 70px 200px;
+}
+
+.main-title {
+  color: #50555b;
+}
+
+.main-title:hover {
+  color: #6a7076;
+}
+
+h1 {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+ul li {
+  display: inline;
+  text-transform: uppercase;
+  margin-right: 30px;
+}
+
+li a:hover {
+  color: #6a7076;
+  transition: .5s;
+}
+
+.active-option {
+  color: #50555b;
+}
