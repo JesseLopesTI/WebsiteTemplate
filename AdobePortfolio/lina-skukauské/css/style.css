@@ -35,6 +35,7 @@ header {
 
 .main-title:hover {
   color: #6a7076;
+  transition: .5s;
 }
 
 h1 {
