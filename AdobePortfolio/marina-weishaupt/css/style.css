@@ -1,0 +1,68 @@
+/* Reset */
+
+body,
+ul,
+li,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+/* General Settings */
+
+body {
+  font-family: 'Belleza', sans-serif;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #092d54;
+}
+
+/* Header */
+
+header {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;  
+}
+
+ul li {
+  font-size: 18px;
+  display: inline;
+  margin-right: 20px;
+}
+
+.active-option {
+  font-weight: bold;
+}
+
+.with-hover:hover {
+  color: #74849a;
+}
+
+.main-title {
+  font-size: 20px;
+}
+
+.main-title:hover {
+  color: #74849a;
+}
+
+.fab {
+  font-size: 20px;
+  display: inline;
+  margin-left: 20px;
+}
+
+.fab:hover {
+  color: #74849a;
+}
