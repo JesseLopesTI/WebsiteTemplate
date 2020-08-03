@@ -1,0 +1,74 @@
+/* Reset */
+
+body,
+h1,
+ul,
+li {
+  padding: 0;
+  margin: 0;
+}
+
+/* General Settings */
+
+body {
+  width: 90%;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+ul li {
+  list-style: none;
+  display: inline;
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+li a {
+  text-transform: lowercase;
+}
+
+a {
+  text-decoration: none;
+  color: #191919;
+}
+
+h1 {
+  text-align: center;
+  font-size: 22px;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 15px;
+  border-bottom: 5px solid #f2f2f2;
+}
+
+.with-bold {
+  font-weight: bold;
+}
+
+.passive-option {
+  color: #8a8a8a;
+}
+
+.passive-option:hover {
+  color: #191919;
+  transition: .5s;
+}
+
+.fab {
+  margin-left: 20px;
+}
+
+.fa-behance, .fa-instagram, .fa-flickr {
+  font-size: 20px;
+}
+
+.fa-facebook-f {
+  font-size: 18px;
+}
