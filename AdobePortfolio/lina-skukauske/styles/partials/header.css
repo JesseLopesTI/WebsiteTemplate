@@ -1,73 +1,73 @@
 header {
-    width: 100vw;
-    padding: 4.5rem 0;
-  }
-  
+  width: 100vw;
+  padding: 4.5rem 0;
+}
+
+#header-container {
+  margin-left: 15rem;
+}
+
+.main-title {
+  text-transform: uppercase;
+  color: var(--active-font-color);
+}
+
+.main-title:hover {
+  color: var(--secondary-color-passive-font);
+  transition: .5s;
+}
+
+#nav-container {
+  padding-top: 2rem;
+}
+
+#nav-container li {
+  display: inline;
+  text-transform: uppercase;
+  margin-right: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--passive-font-color);
+}
+
+li a:hover {
+  color: var(--secondary-color-passive-font);
+  transition: .5s;
+}
+
+.active-menu {
+  color: var(--active-font-color);
+}
+
+@media (max-width: 768px) {
   #header-container {
-    margin-left: 15rem;
+    margin-left: 30px;
   }
-  
+}
+
+@media (max-width: 425px) {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #header-container {
+    margin-right: 30px;
+  }
+
   .main-title {
-    text-transform: uppercase;
-    color: var(--active-font-color);
+    font-size: 1.7rem;
   }
-  
-  .main-title:hover {
-    color: var(--secondary-color-passive-font);
-    transition: .5s;
+
+  li a {
+    margin-left: 30px;
   }
-  
-  #nav-container {
-    padding-top: 2rem;
-  }
-  
+
   #nav-container li {
-    display: inline;
-    text-transform: uppercase;
-    margin-right: 2rem;
+    display: block;
+    text-align: center;
   }
-  
-  a {
-    text-decoration: none;
-    color: var(--passive-font-color);
-  }
-  
-  li a:hover {
-    color: var(--secondary-color-passive-font);
-    transition: .5s;
-  }
-  
-  .active-menu {
-    color: var(--active-font-color);
-  }
-  
-  @media (max-width: 768px) {
-    #header-container {
-      margin-left: 30px;
-    }
-  }
-  
-  @media (max-width: 425px) {
-    header {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-  
-    #header-container {
-      margin-right: 30px;
-    }
-  
-    .main-title {
-      font-size: 1.7rem;
-    }
-  
-    li a {
-      margin-left: 30px;
-    }
-  
-    #nav-container li {
-      display: block;
-      text-align: center;
-    }
-  }
+}
